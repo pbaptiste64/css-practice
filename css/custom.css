@@ -1,0 +1,71 @@
+/*Q1*/
+.logo{
+    color: red;
+
+}
+/*Q2*/
+header nav a{
+    color: green;
+/*Q3*/
+}
+/*Q4*/
+nav a:visited{
+    color: #444;
+
+}
+/*Q5*/
+.above-the-fold p{
+    color: white;
+}
+
+.above-the-fold .card{
+    background-color: lightgreen;
+    color: white;
+}
+
+article p::first-letter{
+    margin-left:30px; 
+}
+
+.blog{
+    background-color: #666;
+    color: #cff;    
+
+}
+
+.gallery figure:hover{
+    box-shadow: 15px 5px 5px #888;
+
+}
+
+.gallery figcaption{
+    padding: 8px 0px 0px 8px;
+
+}
+
+article{
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 800px;
+}
+
+.article-title{
+    text-align: center;
+}
+
+section h2{
+    text-transform: uppercase;
+
+}
+
+.form-input{
+    display: block;
+    margin-bottom: 15px;
+    padding: 5px; 
+}
+
+footer{
+    background-color: rgb(169,169,169);
+    color: #FFA07A
+}
