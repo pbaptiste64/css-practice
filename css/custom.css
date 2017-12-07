@@ -17,55 +17,71 @@ nav a:visited{
 .above-the-fold p{
     color: white;
 }
-
+/*Q6*/
 .above-the-fold .card{
     background-color: lightgreen;
     color: white;
 }
-
+/*Q7*/
 article p::first-letter{
     margin-left:30px; 
 }
-
+/*Q8*/
 .blog{
     background-color: #666;
     color: #cff;    
 
 }
-
+/*Q9*/
 .gallery figure:hover{
     box-shadow: 15px 5px 5px #888;
 
 }
-
+/*Q10*/
 .gallery figcaption{
     padding: 8px 0px 0px 8px;
 
 }
-
+/*Q11*/
 article{
     margin-top: 40px;
     margin-left: auto;
     margin-right: auto;
     max-width: 800px;
 }
-
+/*Q12*/
 .article-title{
     text-align: center;
 }
-
+/*Q13*/
 section h2{
     text-transform: uppercase;
 
 }
-
+/*Q14 15 16*/
 .form-input{
     display: block;
     margin-bottom: 15px;
     padding: 5px; 
 }
-
+/*Q17*/
 footer{
     background-color: rgb(169,169,169);
     color: #FFA07A
+}
+/*Q18*/
+.form-input:focus{
+    border-width: 4px;
+    }
+
+    /*Q19*/
+    section h2::before{
+    content: ">";
+    margin-right: 4px;
+    }
+
+    /*Q20*/
+
+input[type=radio]{
+    margin: 0px 5px 0px 20px;    
 }
